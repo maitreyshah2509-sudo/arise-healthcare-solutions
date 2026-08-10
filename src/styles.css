@@ -1,0 +1,244 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * ARISE HEALTHCARE SOLUTIONS — clinical technology digital card design system.
+ * Medical teal (#218EAF) + soft aqua accent, glass surfaces, 24px radius.
+ */
+
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 12px);
+  --radius-md: calc(var(--radius) - 8px);
+  --radius-lg: calc(var(--radius) - 4px);
+  --radius-xl: var(--radius);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 16px);
+  --radius-4xl: calc(var(--radius) + 24px);
+
+  --font-display: "Rajdhani", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-ui: "Inter", system-ui, sans-serif;
+
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-soft: var(--primary-soft);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-gold-foreground: var(--gold-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-glass: var(--glass);
+  --color-glass-border: var(--glass-border);
+}
+
+:root {
+  --radius: 1.5rem;
+
+  --background: oklch(0.99 0.004 228);
+  --foreground: oklch(0.26 0.03 235);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.26 0.03 235);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.26 0.03 235);
+
+  /* Arise medical teal #218EAF */
+  --primary: oklch(0.603 0.104 224);
+  --primary-foreground: oklch(0.99 0.004 228);
+  --primary-soft: oklch(0.945 0.022 227);
+
+  /* Soft aqua accent #5FBFD6 */
+  --gold: oklch(0.755 0.096 216);
+  --gold-soft: oklch(0.95 0.03 222);
+  --gold-foreground: oklch(0.34 0.06 222);
+
+  --secondary: oklch(0.955 0.014 227);
+  --secondary-foreground: oklch(0.34 0.05 228);
+  --muted: oklch(0.968 0.01 229);
+  --muted-foreground: oklch(0.52 0.02 235);
+  --accent: oklch(0.945 0.022 227);
+  --accent-foreground: oklch(0.387 0.064 220);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.905 0.014 227);
+  --input: oklch(0.925 0.012 227);
+  --ring: oklch(0.603 0.104 224);
+
+  --glass: oklch(1 0 0 / 65%);
+  --glass-border: oklch(1 0 0 / 75%);
+
+  --gradient-emerald: linear-gradient(135deg, oklch(0.603 0.104 224), oklch(0.387 0.064 220));
+  --gradient-gold: linear-gradient(135deg, oklch(0.8 0.09 213), oklch(0.55 0.1 226));
+  --gradient-halo: radial-gradient(
+    circle at 50% 0%,
+    oklch(0.603 0.104 224 / 16%),
+    transparent 65%
+  );
+
+  --shadow-premium: 0 24px 60px -24px oklch(0.603 0.104 224 / 34%);
+  --shadow-gold: 0 0 0 1px oklch(0.755 0.096 216 / 45%), 0 18px 40px -20px oklch(0.755 0.096 216 / 50%);
+  --shadow-soft: 0 8px 30px -12px oklch(0.4 0.05 228 / 20%);
+}
+
+.dark {
+  --background: oklch(0.235 0.035 240);
+  --foreground: oklch(0.97 0.008 230);
+  --card: oklch(0.278 0.04 238);
+  --card-foreground: oklch(0.97 0.008 230);
+  --popover: oklch(0.278 0.04 238);
+  --popover-foreground: oklch(0.97 0.008 230);
+
+  --primary: oklch(0.72 0.1 220);
+  --primary-foreground: oklch(0.16 0.04 263);
+  --primary-soft: oklch(0.33 0.055 230);
+
+  --gold: oklch(0.82 0.09 213);
+  --gold-soft: oklch(0.35 0.05 226);
+  --gold-foreground: oklch(0.19 0.03 235);
+
+  --secondary: oklch(0.3 0.035 235);
+  --secondary-foreground: oklch(0.95 0.008 230);
+  --muted: oklch(0.29 0.03 234);
+  --muted-foreground: oklch(0.76 0.02 230);
+  --accent: oklch(0.33 0.045 232);
+  --accent-foreground: oklch(0.95 0.03 220);
+  --destructive: oklch(0.66 0.19 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(1 0 0 / 14%);
+  --input: oklch(1 0 0 / 18%);
+  --ring: oklch(0.72 0.1 220);
+
+  --glass: oklch(0.28 0.035 236 / 60%);
+  --glass-border: oklch(1 0 0 / 16%);
+
+  --gradient-halo: radial-gradient(circle at 50% 0%, oklch(0.72 0.1 220 / 20%), transparent 65%);
+  --shadow-premium: 0 24px 60px -24px oklch(0 0 0 / 60%);
+  --shadow-soft: 0 8px 30px -12px oklch(0 0 0 / 55%);
+}
+
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: oklch(0.755 0.096 216 / 35%);
+  }
+
+}
+
+@utility glass {
+  background: var(--glass);
+  backdrop-filter: blur(22px) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-soft);
+}
+
+@utility glass-strong {
+  background: color-mix(in oklab, var(--card) 78%, transparent);
+  backdrop-filter: blur(28px) saturate(170%);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-premium);
+}
+
+@utility gold-text {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility gold-ring {
+  box-shadow: var(--shadow-gold);
+}
+
+@utility emerald-gradient {
+  background: var(--gradient-emerald);
+}
+
+@utility halo {
+  background: var(--gradient-halo);
+}
+
+@utility section-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -24px, 0) scale(1.06);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@utility animate-float-slow {
+  animation: float-slow 12s ease-in-out infinite;
+}
+
+@utility shimmer-line {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    oklch(0.755 0.096 216 / 65%),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3.5s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

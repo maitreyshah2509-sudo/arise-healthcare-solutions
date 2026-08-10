@@ -1,0 +1,253 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: Quality Tested
+        - generic [ref=e11]: Endoscopy Specialists
+      - generic [ref=e14]:
+        - img "ARISE HEALTHCARE SOLUTIONS logo" [ref=e18]
+        - generic [ref=e19]:
+          - heading "Arise Healthcare Solutions" [level=1] [ref=e20]
+          - paragraph [ref=e21]: Endoscopy Repair · Equipment Sales · Lifecycle Support
+    - region "Quick actions" [ref=e22]:
+      - generic [ref=e23]:
+        - button "Call Now" [ref=e24]
+        - button "WhatsApp" [ref=e29]
+        - button "Email" [ref=e34]
+        - button "Website" [ref=e40]
+        - button "Request Repair" [ref=e46]
+        - button "Equipment Range" [ref=e51]
+        - button "Save Contact" [ref=e58]
+        - button "Share Card" [ref=e64]
+        - button "Send Enquiry" [ref=e73]
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - text: About
+        - heading "An independent repair partner for healthcare" [level=2] [ref=e80]
+      - generic [ref=e83]:
+        - paragraph [ref=e84]: Arise Healthcare Solutions is an independent medical equipment repair, biomedical engineering and healthcare technical solutions company focused on endoscopy and advanced biomedical devices. Our lab specialises in rigid and flexible scopes, camera heads, video processors, light sources and CO₂ insufflators, and extends to medical monitors, patient monitors, ultrasound systems, ventilators and other biomedical devices. We work at component and board level where it makes sense, keeping downtime and total cost of ownership low — with transparent diagnosis and quotation, documented quality testing and clear communication throughout.
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - paragraph [ref=e87]: Endoscopy
+            - paragraph [ref=e88]: Core Specialisation
+          - generic [ref=e89]:
+            - paragraph [ref=e90]: Board-Level
+            - paragraph [ref=e91]: Repair Capability
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: AMC
+            - paragraph [ref=e94]: Lifecycle Support
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - text: Services
+        - heading "Repair & technical services" [level=2] [ref=e97]
+        - paragraph [ref=e99]: Endoscopy repair, equipment sales, installation and lifecycle support.
+      - generic [ref=e100]:
+        - generic [ref=e101]: Endoscopy Repair
+        - generic [ref=e106]: Rigid Scope Repair
+        - generic [ref=e111]: Flexible Scope Repair
+        - generic [ref=e116]: Nephroscope Repair
+        - generic [ref=e121]: Ureteroscope Repair
+        - generic [ref=e126]: Cystoscope Repair
+        - generic [ref=e131]: Laparoscope Repair
+        - generic [ref=e136]: Arthroscope Repair
+        - generic [ref=e141]: Camera Head Repair
+        - generic [ref=e146]: Video Processor Repair
+        - generic [ref=e151]: Light Source Repair
+        - generic [ref=e156]: CO₂ Insufflator Repair
+        - generic [ref=e161]: Medical Monitor Repair
+        - generic [ref=e166]: Component & Board-Level Repair
+        - generic [ref=e171]: Refurbished Endoscopy Towers
+        - generic [ref=e176]: Medical Equipment Sales
+        - generic [ref=e181]: Installation & Room Planning
+        - generic [ref=e186]: Preventive Maintenance & AMC
+        - generic [ref=e191]: Diagnostic Lab & Quality Testing
+    - generic [ref=e196]:
+      - generic [ref=e197]:
+        - text: Our lab
+        - heading "Inside the repair studio" [level=2] [ref=e198]
+        - paragraph [ref=e200]: Calibrated diagnostics, component-level repair and documented quality testing.
+      - generic [ref=e201]:
+        - figure [ref=e203]:
+          - img "Rigid & Flexible Endoscopes" [ref=e204]
+          - generic [ref=e205]:
+            - text: Endoscopy
+            - paragraph [ref=e206]: Rigid & Flexible Endoscopes
+        - figure [ref=e208]:
+          - img "HD / 4K Camera Heads" [ref=e209]
+          - generic [ref=e210]:
+            - text: Imaging
+            - paragraph [ref=e211]: HD / 4K Camera Heads
+        - figure [ref=e213]:
+          - img "Micro-Soldering & Precision Rework" [ref=e214]
+          - generic [ref=e215]:
+            - text: Diagnostic Lab
+            - paragraph [ref=e216]: Micro-Soldering & Precision Rework
+        - figure [ref=e218]:
+          - img "Board-Level PCB Diagnosis" [ref=e219]
+          - generic [ref=e220]:
+            - text: Component Repair
+            - paragraph [ref=e221]: Board-Level PCB Diagnosis
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - text: Why choose us
+        - heading "Why healthcare teams choose Arise" [level=2] [ref=e224]
+      - generic [ref=e226]:
+        - generic [ref=e228]:
+          - heading "Component & Board-Level Expertise" [level=3] [ref=e234]
+          - paragraph [ref=e235]: Micro-soldering and PCB-level repair capability in-house.
+        - generic [ref=e237]:
+          - heading "Endoscopy Repair Specialists" [level=3] [ref=e242]
+          - paragraph [ref=e243]: Deep focus on rigid and flexible endoscopy systems.
+        - generic [ref=e245]:
+          - heading "Advanced Diagnostic Equipment" [level=3] [ref=e249]
+          - paragraph [ref=e250]: Calibrated tools for accurate fault isolation.
+        - generic [ref=e252]:
+          - heading "Experienced Technical Team" [level=3] [ref=e256]
+          - paragraph [ref=e257]: Biomedical engineers trained on multi-brand systems.
+        - generic [ref=e259]:
+          - heading "Quick & Transparent Service" [level=3] [ref=e263]
+          - paragraph [ref=e264]: Clear updates, transparent quotations, no surprises.
+        - generic [ref=e266]:
+          - heading "Quality Testing Before Delivery" [level=3] [ref=e276]
+          - paragraph [ref=e277]: Every unit goes through documented final QC.
+        - generic [ref=e279]:
+          - heading "Multi-Brand Equipment Support" [level=3] [ref=e286]
+          - paragraph [ref=e287]: Support across a broad portfolio of medical equipment brands.
+        - generic [ref=e289]:
+          - heading "Service Warranty Available" [level=3] [ref=e294]
+          - paragraph [ref=e295]: Warranty-backed repairs with AMC coverage options.
+    - generic [ref=e296]:
+      - generic [ref=e297]:
+        - text: Quality lab
+        - heading "Diagnostic lab & quality testing" [level=2] [ref=e298]
+      - generic [ref=e300]:
+        - generic [ref=e302]:
+          - paragraph [ref=e307]: Micro-Soldering
+          - paragraph [ref=e308]: Component-level rework
+        - generic [ref=e310]:
+          - paragraph [ref=e315]: PCB Diagnosis
+          - paragraph [ref=e316]: Board-level fault isolation
+        - generic [ref=e318]:
+          - paragraph [ref=e323]: Optical Inspection
+          - paragraph [ref=e324]: Image quality & leakage testing
+        - generic [ref=e326]:
+          - paragraph [ref=e331]: Electrical Safety Checks
+          - paragraph [ref=e332]: Final quality inspection
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - text: Industries
+        - heading "Who we serve" [level=2] [ref=e335]
+      - generic [ref=e337]:
+        - generic [ref=e338]: Hospitals
+        - generic [ref=e340]: Multispeciality Hospitals
+        - generic [ref=e342]: Clinics
+        - generic [ref=e344]: Endoscopy Centres
+        - generic [ref=e346]: Diagnostic Centres
+        - generic [ref=e348]: Medical Colleges
+        - generic [ref=e350]: Surgical Centres
+        - generic [ref=e352]: Equipment Dealers
+        - generic [ref=e354]: Healthcare Organisations
+    - generic [ref=e356]:
+      - generic [ref=e357]:
+        - text: Contact
+        - heading "Reach our repair team" [level=2] [ref=e358]
+      - generic [ref=e360]:
+        - generic [ref=e362]:
+          - generic [ref=e363]: Working Hours
+          - generic [ref=e368]:
+            - generic [ref=e369]: Mon – Sat · 09:30 to 19:00 IST
+            - generic [ref=e370]: Repair, quotation & service enquiries
+            - generic [ref=e371]: We typically respond within one business day
+            - generic [ref=e372]: +91 99899 67036 / +91 85301 00483
+        - generic [ref=e374]:
+          - generic [ref=e375]: Repair Support
+          - paragraph [ref=e379]: Share the equipment details and our team responds with a diagnostic plan — transparent quotation before any repair begins.
+          - link "Submit Repair Request" [ref=e380] [cursor=pointer]:
+            - /url: https://arisehealthcaresolutions.com/request-repair
+        - generic [ref=e384]:
+          - link "+91 99899 67036" [ref=e385] [cursor=pointer]:
+            - /url: tel:+919989967036
+          - link "arisehealthcaresolutions1@gmail.com" [ref=e388] [cursor=pointer]:
+            - /url: mailto:arisehealthcaresolutions1@gmail.com
+          - link "arisehealthcaresolutions.com" [ref=e392] [cursor=pointer]:
+            - /url: https://arisehealthcaresolutions.com
+        - generic [ref=e397]:
+          - generic [ref=e398]: Our Location
+          - paragraph [ref=e403]: 606/ SAHYOG SPACE NR PANCHAM PUSHPA VILLA NEW ALKAPURI, Vadodara, Gujarat, India
+          - generic [ref=e404]:
+            - iframe [ref=e405]:
+              
+            - link "Open location in Google Maps" [ref=e406] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=606%2F%20SAHYOG%20SPACE%20NR%20PANCHAM%20PUSHPA%20VILLA%20NEW%20ALKAPURI%2C%20Vadodara%2C%20Gujarat%2C%20India
+    - generic [ref=e407]:
+      - generic [ref=e408]:
+        - text: Enquiry
+        - heading "Send an enquiry" [level=2] [ref=e409]
+        - paragraph [ref=e411]: Share your equipment details and our team will respond within one business day.
+      - generic [ref=e413]:
+        - textbox "Full name" [ref=e415]
+        - textbox "Phone" [ref=e417]
+        - textbox "Email" [ref=e419]
+        - textbox "Hospital / organisation" [ref=e421]
+        - combobox [ref=e423]:
+          - option "Service required" [selected]
+          - option "Endoscopy Repair"
+          - option "Rigid Scope Repair"
+          - option "Flexible Scope Repair"
+          - option "Nephroscope Repair"
+          - option "Ureteroscope Repair"
+          - option "Cystoscope Repair"
+          - option "Laparoscope Repair"
+          - option "Arthroscope Repair"
+          - option "Camera Head Repair"
+          - option "Video Processor Repair"
+          - option "Light Source Repair"
+          - option "CO₂ Insufflator Repair"
+          - option "Medical Monitor Repair"
+          - option "Component & Board-Level Repair"
+          - option "Refurbished Endoscopy Towers"
+          - option "Medical Equipment Sales"
+          - option "Installation & Room Planning"
+          - option "Preventive Maintenance & AMC"
+          - option "Diagnostic Lab & Quality Testing"
+        - textbox "Message" [ref=e425]
+        - button "Send Enquiry" [ref=e426]
+    - generic [ref=e430]:
+      - generic [ref=e431]:
+        - text: Scan
+        - heading "Share this digital card" [level=2] [ref=e432]
+      - generic [ref=e435]:
+        - paragraph [ref=e438]: Scan to open this card instantly on any device.
+        - button "Download QR" [disabled] [ref=e439]
+    - generic [ref=e444]:
+      - img "ARISE HEALTHCARE SOLUTIONS logo" [ref=e445]
+      - paragraph [ref=e446]: Clinical Technology Atelier
+      - generic [ref=e447]:
+        - generic [ref=e448]:
+          - paragraph [ref=e449]: Working Hours
+          - paragraph [ref=e450]: Mon – Sat · 09:30 to 19:00 IST · Repair, quotation & service enquiries · We typically respond within one business day
+        - generic [ref=e451]:
+          - paragraph [ref=e452]: Repair Enquiries
+          - paragraph [ref=e453]: Endoscopy, camera heads, processors, light sources, insufflators & monitors
+      - generic [ref=e454]:
+        - paragraph [ref=e455]: +91 99899 67036 / +91 85301 00483
+        - paragraph [ref=e456]: arisehealthcaresolutions1@gmail.com
+        - paragraph [ref=e457]:
+          - generic [ref=e461]: 606/ SAHYOG SPACE NR PANCHAM PUSHPA VILLA NEW ALKAPURI, Vadodara, Gujarat, India
+        - paragraph [ref=e462]:
+          - link "arisehealthcaresolutions.com" [ref=e463] [cursor=pointer]:
+            - /url: https://arisehealthcaresolutions.com
+          - text: ·
+          - link "Services" [ref=e464] [cursor=pointer]:
+            - /url: https://arisehealthcaresolutions.com/services
+      - paragraph [ref=e465]: Copyright © 2026 ARISE HEALTHCARE SOLUTIONS. All rights reserved.
+      - paragraph [ref=e466]: Arise Healthcare Solutions is an independent repair service. Original manufacturer trademarks belong to their respective owners.
+    - button "Toggle dark mode" [ref=e467]
+    - navigation "Primary contact actions" [ref=e470]:
+      - generic [ref=e471]:
+        - link "Call" [ref=e472] [cursor=pointer]:
+          - /url: tel:+919989967036
+        - link "WhatsApp" [ref=e475] [cursor=pointer]:
+          - /url: https://wa.me/919989967036
+        - button "Save contact" [ref=e478]
+  - region "Notifications alt+T"
