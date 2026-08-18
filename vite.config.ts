@@ -12,4 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Deploy target for Nitro (Vercel build output). The Lovable sandbox build forces
+  // Cloudflare internally, but any external CI (e.g. Vercel) uses this preset.
+  nitro: { preset: "vercel" },
 });

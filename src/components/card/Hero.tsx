@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { FiCheckCircle } from "react-icons/fi";
 import { HiSparkles } from "react-icons/hi2";
-import ariseLogo from "@/assets/arise-logo.svg";
 import { useCompany } from "@/lib/company-store";
 
 export function Hero() {
@@ -39,24 +38,24 @@ export function Hero() {
 
         <div className="mt-8 flex flex-col items-center gap-4">
           <motion.div
-            className="relative"
+            className="relative flex h-40 w-40 items-center justify-center sm:h-48 sm:w-48"
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-gold via-gold/30 to-primary blur-[2px]" />
-            <div className="relative flex h-40 w-40 items-center justify-center overflow-hidden rounded-full bg-card ring-2 ring-background sm:h-48 sm:w-48">
-              <img
-                src={ariseLogo}
-                alt={`${company.name} logo`}
-                width={512}
-                height={512}
-                className="h-full w-full object-contain"
-              />
-            </div>
+            <img
+              src="/assets/branding/arise-logo-transparent.png"
+              alt={`${company.name} logo`}
+              width={995}
+              height={1153}
+              className="h-full w-full object-contain"
+            />
           </motion.div>
           <div>
-            <h1 className="section-title text-2xl text-foreground sm:text-3xl">Arise Healthcare Solutions</h1>
+            <h1 className="section-title text-2xl text-foreground sm:text-3xl">
+              <span className="text-[#008BDA]">Arise</span>
+              <span className="text-[#D6492F]"> Healthcare Solutions</span>
+            </h1>
             <p className="mt-2 font-ui text-xs uppercase tracking-[0.22em] text-muted-foreground">
               {company.designation}
             </p>

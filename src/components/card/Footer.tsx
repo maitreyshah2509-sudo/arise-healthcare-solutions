@@ -1,7 +1,6 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaXTwitter } from "react-icons/fa6";
 import { FiMapPin } from "react-icons/fi";
 import { useCompany } from "@/lib/company-store";
-import logo from "@/assets/arise-logo.svg";
 
 export function SocialLinks() {
   const { company } = useCompany();
@@ -40,12 +39,12 @@ export function Footer() {
       <div className="pointer-events-none absolute inset-0 halo" aria-hidden />
       <div className="glass-strong relative mx-auto max-w-4xl rounded-3xl p-8 text-center">
         <img
-          src={logo}
+          src="/assets/branding/arise-logo-transparent.png"
           alt={`${company.name} logo`}
-          width={512}
-          height={512}
+          width={995}
+          height={1153}
           loading="lazy"
-          className="mx-auto h-24 w-24 rounded-full object-contain sm:h-28 sm:w-28"
+          className="mx-auto h-24 w-24 object-contain sm:h-28 sm:w-28"
         />
         <p className="mt-3 font-ui text-xs uppercase tracking-[0.22em] text-gold">{company.tagline}</p>
 
